@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/logoBackgrpund"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/team_logo"
+            android:src="@mipmap/ic_launcher"
+            tools:srcCompat="@tools:sample/avatars"
+            />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        <TextView
+            android:id="@+id/team_attack_text"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            android:text="ATAK"
+            android:textAlignment="center"
+            android:padding="12dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/team_midfield_text"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            android:text="ORTA SAHA"
+            android:textAlignment="center"
+            android:padding="12dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/team_defence_text"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            android:text="DEFANS"
+            android:textAlignment="center"
+            android:padding="12dp"
+            android:textStyle="bold"/>
+        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        <TextView
+            android:id="@+id/team_attack_power"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            android:text="79"
+            android:textAlignment="center"
+            android:padding="12dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/team_midfield_power"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            android:text="65"
+            android:textAlignment="center"
+            android:padding="12dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/team_defence_power"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            android:text="78"
+            android:textAlignment="center"
+            android:padding="12dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:padding="0dp">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/team_tablayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maçlar" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oyuncular" />
+
+        </com.google.android.material.tabs.TabLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/team_fixture_layout"
+        android:layout_width="match_parent"
+        android:layout_height="338dp"
+        android:orientation="horizontal" >
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/team_view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>

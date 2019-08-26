@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item   android:id="@+id/team_search"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Sırala"
+            app:showAsAction="always" >
+
+    </item>
+
+    <item
+        android:id="@+id/table_menu_sort_average"
+        android:title="Averaj Sırala"
+        app:showAsAction="never" >
+    </item>
+    <item
+        android:id="@+id/table_menu_sort_point"
+        android:title="Puan Sırala"
+        app:showAsAction="never" >
+    </item>
+    <item
+        android:id="@+id/table_menu_sort_name"
+        android:title="İsim Sırala"
+        app:showAsAction="never" >
+    </item>
+    <item
+        android:id="@+id/table_menu_sort_overall"
+        android:title="Güç Sırala"
+        app:showAsAction="never" >
+    </item>
+</menu>

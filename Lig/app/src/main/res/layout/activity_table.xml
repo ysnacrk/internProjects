@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TableActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:background="@drawable/bottom_border"
+            android:id="@+id/rank_info"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="25"
+            android:textStyle="bold"
+            android:text="Sıralama"
+
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:background="@drawable/bottom_border"
+            android:id="@+id/team_name_table_info"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="25"
+            android:textStyle="bold"
+            android:text="Takım"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:background="@drawable/bottom_border"
+            android:id="@+id/average_info"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="25"
+            android:textStyle="bold"
+            android:text="Averaj"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:background="@drawable/bottom_border"
+            android:id="@+id/poin_info"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="25"
+            android:textStyle="bold"
+            android:text="Puan"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+    <ListView
+
+        android:id="@+id/table_list"
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+</LinearLayout>

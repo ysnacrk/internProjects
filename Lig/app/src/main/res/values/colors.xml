@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF5722</color>
+    <color name="colorPrimaryDark">#009688</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="logoBackgrpund">#3F51B5</color>
+    <color name="teamBar">#FDD835</color>
+
+</resources>
