@@ -1,25 +1,24 @@
 
-
 ##Login screen
 
-![First Screen](/img/girisEkrani.png)
+![First Screen](https://github.com/ysnacrk/internProjects/blob/master/Lig/img/girisEkrani.png)
 
 ##Main Menu
 
-![Main Menu](/img/anaMenu.png)
+![Main Menu](https://github.com/ysnacrk/internProjects/blob/master/Lig/img/anaMenu.png)
 
 ##Teams Menu
 
-![Team Menu](/img/takimMenu.png)
+![Team Menu](https://github.com/ysnacrk/internProjects/blob/master/Lig/img/takimMenu.png)
 
 ##Team Detail
 
-![Team Detail](/img/takimDetayi.png)
+![Team Detail](https://github.com/ysnacrk/internProjects/blob/master/Lig/img/takimDetayi.png)
 
 ##Scoreboard
 
-![Scoreboadr](/img/puanDurumu.png)
+![Scoreboard](https://github.com/ysnacrk/internProjects/blob/master/Lig/img/puanDurumu.png)
 
 ##Fixture
 
-![Fİxture](/img/fikstur.png)
+![Fixture](https://github.com/ysnacrk/internProjects/blob/master/Lig/img/fikstur.png)
