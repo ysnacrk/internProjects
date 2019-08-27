@@ -6,6 +6,11 @@ This repository includes my summer internship projects
 
 This project's purpose is to simulate a simple football league
 
-## First menu
-
 [Proje](https://github.com/ysnacrk/internProjects/tree/master/Lig)
+
+
+# Weather App
+
+This project's purpose is to simulate a simple football league
+
+[Proje](https://github.com/ysnacrk/internProjects/tree/master/WeatherApp)
